@@ -1,0 +1,36 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a8d1b9;
+}
+
+header {
+    text-align: left;
+    padding: 50px 0;
+    background-color: #ddadd0;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.bio, .theme {
+    padding: 40px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
